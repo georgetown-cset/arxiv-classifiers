@@ -1,0 +1,10 @@
+model_name,checkpoint_number,image_name
+ai-32,68354,ai
+ai-full-weak-negs,75190,ai-weak-negs
+cyber-32,102531,cyber
+cyber-full-weak-negs,75190,cyber-weak-negs
+cv-32,34177,cv
+cv-full-weak-negs,75190,cv-weak-negs
+nlp-32,68354,nlp
+nlp-full-weak-negs,75190,nlp-weak-negs
+ro-32,34177,ro

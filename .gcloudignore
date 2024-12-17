@@ -1,0 +1,7 @@
+.git
+.pytest_cache
+analysis
+dataset
+inference
+models
+training

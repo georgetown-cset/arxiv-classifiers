@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    remote = gcs
+['remote "gcs"']
+    url = gs://arxiv-classifier-v2

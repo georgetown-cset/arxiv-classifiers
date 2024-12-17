@@ -1,0 +1,37 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/ai:latest"
+      - "--file=./ai-weak-negs/Dockerfile"
+      - ./ai-weak-negs
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/cv:latest"
+      - "--file=./cv-weak-negs/Dockerfile"
+      - ./cv-weak-negs
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/cyber:latest"
+      - "--file=./cyber-weak-negs/Dockerfile"
+      - ./cyber-weak-negs
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/nlp:latest"
+      - "--file=./nlp-weak-negs/Dockerfile"
+      - ./nlp-weak-negs
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/ro:latest"
+      - "--file=./ro/Dockerfile"
+      - ./ro
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "--tag=gcr.io/gcp-cset-projects/arxiv-classifier-v2/template:latest"
+      - "--file=./template/Dockerfile"
+      - ./template

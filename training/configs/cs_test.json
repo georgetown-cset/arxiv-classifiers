@@ -1,0 +1,21 @@
+{
+  "model_name_or_path": "sentence-transformers/allenai-specter",
+  "dataset_name": "AI",
+  "run_name": "Christian Test",
+  "do_train": true,
+  "do_eval": true,
+  "output_dir": "./models/Christian Test",
+  "max_train_samples": 500,
+  "max_eval_samples": 100,
+  "max_seq_length": 512,
+  "evaluation_strategy": "steps",
+  "eval_steps": 100,
+  "per_device_train_batch_size": 16,
+  "per_device_eval_batch_size": 16,
+  "gradient_accumulation_steps": 4,
+  "seed": 20230227,
+  "data_seed": 20230227,
+  "bf16": true,
+  "bf16_full_eval": true,
+  "remove_unused_columns": false
+}

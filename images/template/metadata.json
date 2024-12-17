@@ -1,0 +1,21 @@
+{
+  "name": "arXiv classifier v2 template",
+  "description": "Adapted from streaming beam example for python flex template.",
+  "parameters": [
+    {
+      "name": "input_path",
+      "label": "Path to input files on GCS",
+      "helpText": "Path to input files on GCS"
+    },
+    {
+      "name": "output_path",
+      "label": "Path to output files on GCS",
+      "helpText": "Path to output files on GCS"
+    },
+    {
+      "name": "model_path",
+      "label": "Path to the model on the image",
+      "helpText": "Path to the model on the image"
+    }
+  ]
+}

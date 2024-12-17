@@ -1,0 +1,80 @@
+[
+  {
+    "name": "merged_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "CSET merged ID"
+  },
+  {
+    "name": "year",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Publication year restricted to 2010+ for predictions"
+  },
+  {
+    "name": "ai",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "AI classifier prediction"
+  },
+  {
+    "name": "cyber",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Cyber classifier prediction"
+  },
+  {
+    "name": "nlp",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "NLP classifier prediction"
+  },
+  {
+    "name": "cv",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "CV classifier prediction"
+  },
+  {
+    "name": "robotics",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Robotics classifier prediction"
+  },
+  {
+    "name": "ai_filtered",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'ai' but included for backwards compatibility"
+  },
+  {
+    "name": "cyber_filtered",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'cyber' but included for backwards compatibility"
+  },
+  {
+    "name": "nlp_filtered",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'nlp' but included for backwards compatibility"
+  },
+  {
+    "name": "cv_filtered",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'cv' but included for backwards compatibility"
+  },
+  {
+    "name": "robotics_filtered",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'robotics' but included for backwards compatibility"
+  },
+  {
+    "name": "cset_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Deprecated. Same as 'merged_id' but included for backwards compatibility"
+  }
+]
